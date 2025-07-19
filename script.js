@@ -77,5 +77,14 @@ function animateOnScroll() {
     }
   });
 }
+// Fade in home background image when loaded
+document.addEventListener("DOMContentLoaded", function() {
+  var homeSection = document.querySelector('.home-section');
+  var img = new window.Image();
+  img.src = 'photos/bggg.jpg';
+  img.onload = function() {
+    homeSection.classList.add('bg-loaded');
+  };
+});
 window.addEventListener('scroll', animateOnScroll);
 window.addEventListener('DOMContentLoaded', animateOnScroll); 
