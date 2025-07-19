@@ -147,7 +147,6 @@ main {
   overflow: hidden;
 }
 .home-section {
-  background: linear-gradient(135deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.1) 100%), url('photos/bggg.jpg') center/cover no-repeat;
   height: calc(100vh - 80px);
   position: relative;
   display: flex;
