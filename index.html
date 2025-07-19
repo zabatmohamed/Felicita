@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Felicità Tlemcen - Restaurant Italien</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <span class="store-name">Felicità Tlemcen</span>
+    </div>
+    <nav class="desktop-nav">
+      <button data-scroll="home">Accueil</button>
+      <button data-scroll="menu">Menu</button>
+      <button data-scroll="findus">Nous Trouver</button>
+      <button data-scroll="about">À Propos</button>
+      <button data-scroll="contact">Contact</button>
+    </nav>
+    <div class="hamburger" id="hamburger" onclick="toggleMobileNav()">
+      <span></span><span></span><span></span>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <button data-scroll="home">Accueil</button>
+      <button data-scroll="menu">Menu</button>
+      <button data-scroll="findus">Nous Trouver</button>
+      <button data-scroll="about">À Propos</button>
+      <button data-scroll="contact">Contact</button>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="section home-section animate-fade-in">
+      <div class="home-bg-overlay"></div>
+      <div class="logo-circle"><img src="photos\logo.jpg" alt=""></div>
+      <h1 class="store-name-big">Felicità Tlemcen</h1>
+      <div class="home-buttons">
+        <button class="big-btn" data-scroll="menu">Menu</button>
+        <button class="big-btn" data-scroll="findus">Find Us</button>
+      </div>
+    </section>
+    <section id="menu" class="section menu-section animate-slide-in">
+      <h2>Notre Menu</h2>
+      <div class="menu-cards">
+        <div class="menu-card" data-img="photos/menu1.jpg">
+          <img src="photos/menu1.jpg" alt="Salades, Gratins et Pasta">
+          <span class="menu-title" style="width: 10em;">Salades, Gratins et Pasta</span>
+          <button class="see-img">Voir le menu</button>
+        </div>
+        <div class="menu-card" data-img="photos/menu2.jpg">
+          <img src="photos/menu2.jpg" alt="Nos Sandwichs Gourmets">
+          <span class="menu-title" style="width: 10em;">Nos Sandwichs Gourmets</span>
+          <button class="see-img">Voir le menu</button>
+        </div>
+        <div class="menu-card" data-img="photos/menu3.jpg">
+          <img src="photos/menu3.jpg" alt="Pizza Menu">
+          <span class="menu-title">Toutes Nos Pizzas</span>
+          <button class="see-img">Voir le Menu</button>
+        </div>
+        <div class="menu-card" data-img="photos/menu4.jpg">
+          <img src="photos/menu4.jpg" alt="Menu SUCRÈ">
+          <span class="menu-title">Menu SUCRÈ</span>
+          <button class="see-img">Voir le menu</button>
+        </div>
+        <div class="menu-card" data-img="photos/menu5.jpg">
+          <img src="photos/menu5.jpg" alt="Desserts, Mojitos et Cocktails">
+          <span class="menu-title">Desserts, Mojitos et Cocktails</span>
+          <button class="see-img">Voir le menu</button>
+        </div>
+      </div>
+    </section>
+    <section id="findus" class="section findus-section animate-scale-in">
+      <h2>Nous Trouver</h2>
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2736.1249914456616!2d-1.3301961249998753!3d34.87829557285708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd78c989c26611e9%3A0xb7a0f9165612faa!2sPizzeria%20Felicita%20Tlemcen!5e1!3m2!1sen!2sdz!4v1752889765759!5m2!1sen!2sdz"  style="border:0; width:100%; height:250px; border-radius:16px;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <p class="address">07, Tlemcen 13000 Tlemcen, Algérie</p>
+    </section>
+    <section id="contact" class="section contact-section animate-rotate-in">
+      <h2>Contactez-nous</h2>
+      <div class="contact-cards">
+        <a href="https://www.instagram.com/felicita.tlemcen?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-btn insta-btn" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/Felicita.Tlemcen" class="social-btn fb-btn" target="_blank">Facebook</a>
+      </div>
+      <div class="phone-card">☎️ : 0549457166</div>
+    </section>
+    <section id="about" class="section about-section animate-fade-in">
+      <h2>À Propos de Nous</h2>
+      <div class="about-content">
+        <p>Bienvenue chez Felicità Tlemcen, votre destination culinaire italienne authentique au cœur de Tlemcen. Depuis notre ouverture, nous nous efforçons de vous offrir une expérience gastronomique exceptionnelle, alliant tradition italienne et innovation culinaire.</p>
+        <p>Notre équipe passionnée de chefs italiens et locaux prépare chaque plat avec amour et attention aux détails, en utilisant uniquement les ingrédients les plus frais et de la plus haute qualité. De nos pizzas traditionnelles cuites au feu de bois à nos pâtes faites maison, chaque bouchée raconte une histoire d'authenticité et de passion.</p>
+        <p>Chez Felicità Tlemcen, nous croyons que la cuisine italienne est plus qu'une simple nourriture - c'est un art, une culture et une célébration de la vie. Rejoignez-nous pour découvrir le véritable goût de l'Italie dans une ambiance chaleureuse et accueillante.</p>
+      </div>
+    </section>
+  </main>
+  <div id="modal" class="modal">
+    <span class="close-modal" id="closeModal">&times;</span>
+    <img class="modal-img" id="modalImg" src="" alt="Menu Image">
+  </div>
+  <footer>
+    <p>&copy; 2025 Felicità Tlemcen. Tous droits réservés.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
